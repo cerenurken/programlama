@@ -41,13 +41,13 @@ while True:
 
 #4.SORU
 gunluky=90
+calisansayisi=50
 mesaisaati=""
 calismasaati=40
 while True:
     mesaisaati=int(input("mesai saatinizi giriniz:"))
     if (mesaisaati<22):
-        print("aylık mesai ile birlikte ödenecek miktar:",(40*4*90)+(mesaisaati*gunluky*0.10))
-        break
+        print("aylık mesai ile birlikte ödenecek miktar:",(40*4*90)+(mesaisaati*gunluky*0.10)*50)
     else:
         print("22 saatten fazla mesai yapılmaz.")
         break
