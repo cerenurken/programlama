@@ -1,16 +1,14 @@
 #1.SORU
-satisM=500
-birimM=20
+satisMik=500
+birimSatisF=20
 ciro=5000
-i=1
-while True:
-    satisM=(satisM+200)*12
-    birimM=(birimM+10)*12
-    ciro=satisM+birimM
+i=0
+while(ciro<=500000):
+    ciro=ciro+(satisMik*birimSatisF)
+    satisMik=satisMik+200
+    birimSatisF=birimSatisF+10
     i=i+1
-    if(ciro>500000):
-        print(i,"yıl sonra cironuz 500000 tl yi geçer.")
-        break
+print("500000 den fazla kar",i,"ayda tamamlanmıştır,")
     
 
 #2.SORU
