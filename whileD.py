@@ -15,7 +15,7 @@ print("500000 den fazla kar",i,"ayda tamamlanmıştır,")
 sm=10000
 satılanurun=500
 alınanurun=100
-i=1
+i=0
 while True:
     sm=sm-satılanurun+alınanurun
     i=i+1
